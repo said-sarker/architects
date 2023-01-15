@@ -1,0 +1,355 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+
+
+
+.primary-btn{/* common style */
+
+    height: 64px;
+    width: 180px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #fff;
+    text-align: center;
+    border: none;
+
+}
+/* -----------main manu style
+-------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 230px;
+    align-items: center;
+    background-color: rgba(255, 144, 14, 0.1)
+    ;
+    /* position: fixed; */
+    
+}
+.menu-logo{
+    font-family: 'Work Sans', sans-serif;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+}
+.menu-item ul{
+    text-decoration: none;
+    display: flex;
+}
+.menu-item ul li{
+    list-style: none;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #424242;
+    padding: 0 20px;
+}
+/* -----------
+banner start
+------------ */
+.banner{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 100px 230px 0 230px;
+}
+.banner-title{
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    padding-bottom: 10px;
+}
+.banner-pra{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.banner-bg img{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+
+/* feature css start */
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 230px 40px 230px;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.feature-img img{
+    width: 100%;
+    height: 342px;
+}
+.feature-items{
+    height: 304px;
+    width: 537px;
+    border-radius: 8px;
+    margin-left: 40px;
+
+}
+.feature-title{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 53px;
+    text-align: left;
+    color: #727272;
+
+}
+.color-bl{
+    color: #131313;
+}
+.color-or{
+    color: #FF900E;
+}
+.feature-pra{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
+    margin-bottom: 20px;
+
+}
+.feature-btn{
+    padding-right: 176px;
+}
+/* about section css */
+.about{
+    padding: 0 230px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+.about-item{
+    padding-right: 20px;
+}
+.about-title{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+}
+.about-pra{
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+.about-item-list{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 88px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.mimi-title{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    /* padding-top: 10px; */
+}
+.mini-pra{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+.about-img img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* experience css */
+.experience{
+    height: 100px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    position: absolute;
+    left: 737px;
+    top: 2131px;
+
+}
+.experience-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    /* text-align: center;   */
+    color: #fff; 
+}
+.experience-pra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    /* text-align: center;   */
+    color: #fff;  
+    
+}
+/* satisfaction section start */
+.satisfaction{
+    margin: 50px 230px;
+}
+.satisfaction-title{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+    color: #131313;
+}
+.satisfaction-pra{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #727272;
+}
+.client{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+.client-re{
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 15px;
+}
+.client-re:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.company-rat{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 53px;
+    color: #424242;
+
+}
+.company-rew{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #727272;
+}
+/* sponser logo css */
+.sponser{
+    margin: 40px 230px;
+    text-align: center;
+}
+.sponser-title{
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #131313;
+}
+.sponser-pra{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #424242;
+
+}
+.sponser-logo{
+    margin: 40px 230px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+}
+.logo-bl{
+    filter: grayscale(100%);
+}
+.sponser-logo img{
+    width: 166px;
+    height: 50px;
+}
+/* footer section css */
+.footer{
+    height: 100px;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 45px;
+    margin: 0 200px;
+
+}
+.footer h3{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #424242;
+
+}
+
+@media screen and (max-width: 576px){
+    .banner{
+        background-color: rgba(255, 14, 14, 0.1);
+        padding: 100px 20px 0 20px;
+    }
+}
